@@ -5,17 +5,17 @@ class Launchbox < Formula
   desc "Teenage Guide to Popularity command-line interface for creating boilerplate Next.js application."
   homepage "https://github.com/fabiomrosa/launchbox"
   license "MIT"
-  version "0.3.1"
+  version "0.3.2"
 
   on_macos do
     on_arm do
       url "https://github.com/fabiomrosa/homebrew-launchbox/releases/download/v#{version}/launchbox-darwin-arm64"
-      sha256 "917be00292c485ba59c4308f5651bb5919ec7078022082b1ceb2f279b306e41f"
+      sha256 "7b96ed29d7ff570b00fb07a38d6092ecded8f6df889151143901772106d27563"
     end
 
     on_intel do
       url "https://github.com/fabiomrosa/homebrew-launchbox/releases/download/v#{version}/launchbox-darwin-amd64"
-      sha256 "7323931bb2e6bd27ed99c93913ea8640fc013d075a6296414968f98406fd4a1a"
+      sha256 "048f9212eb2c1f79d4cf7b9b8c076085c38e4511b48ca0031058b9ca947e11d8"
     end
   end
 
