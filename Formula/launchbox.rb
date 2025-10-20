@@ -3,19 +3,19 @@ class Launchbox < Formula
   # is due to how Homebrew’s DSL (domain-specific language in Ruby)
   # and its formula system are designed and parsed
   desc "Teenage Guide to Popularity command-line interface for creating boilerplate Next.js application."
-  homepage "https://github.com/fabiomrosa/launchbox"
+  homepage "https://github.com/fabiomrosa/homebrew-launchbox"
   license "MIT"
-  version "0.4.1"
+  version "0.5.0"
 
   on_macos do
     on_arm do
       url "https://github.com/fabiomrosa/homebrew-launchbox/releases/download/v#{version}/launchbox-darwin-arm64"
-      sha256 "cc330b53724a919fcaa576bd4abd6e9bf907be1d849ba89453aafbeee3c3fb2e"
+      sha256 "9f41444180a1f0de9e60843c1be0df34e033c5fcfa79484043b89fec9f6f53aa"
     end
 
     on_intel do
       url "https://github.com/fabiomrosa/homebrew-launchbox/releases/download/v#{version}/launchbox-darwin-amd64"
-      sha256 "9b5b20bebca45078d16d21f6bab26f4963e7152ae21a305cb392e29886eb549c"
+      sha256 "fd66c386daea2457bb994a23fc1ef97a23fbb1049a917fbb027316dbe241fd0f"
     end
   end
 
